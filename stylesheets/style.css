@@ -1,0 +1,13 @@
+header{
+  font-family: 'Montserrat', sans-serif;
+  background-color: lightgray;
+  padding: 0 172px;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.menu ul{
+  display: flex;
+}
