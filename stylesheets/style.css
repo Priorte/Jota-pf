@@ -1,13 +1,74 @@
+
 header{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat-Bold', sans-serif;
   background-color: lightgray;
+  font-size: 19px;
   padding: 0 172px;
+  color: #007BFF;
+}
+span{
+  font-family: 'Montserrat-Bold', sans-serif;
+  color: #007BFF
+}
+h1{
+font-family: 'Montserrat-Bold';
+font-size: 43px;
+color: #413F3F;
+text-align: left;
+padding: 0 172px;
+
+}
+p{
+  font-family: 'Montserrat';
+  font-size: 21px;
+  color: #6D7278;
+  padding: 0 172px;
+}
+li{
+  font-family: 'Montserrat';
+  font-size: 21px;
+  color: #6D7278;
+  /* padding: 0 172px; */
+  list-style-type: none;
 }
 .wrapper{
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
 }
 .menu ul{
   display: flex;
+}
+
+.menu ul li{
+  list-style-type: none;
+  margin-left: 20px;
+}
+.fotoperfil{
+  display: flex;
+  justify-content:flex-end;
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.section {
+  display: flex;
+}
+.half-main {
+  width: 50%;
+}
+
+.container .image-links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    padding: 0 172px;
+}
+
+.image-links .card {
+  width: 305px;
 }
